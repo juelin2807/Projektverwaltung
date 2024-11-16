@@ -1,0 +1,61 @@
+File Projektindex (Projekt.index)
+	Nummer		9(6)	Key (1..999999) 
+	Name		X(30)
+
+File Personen (Personen.mita)
+	Nummer		9(4)	Key (1..9999)
+	Art		X(10)	Person/Firma
+	Firmenname	X(30)
+	Vorname		X(25)	
+	Nachname	X(25)	
+	Strasse		X(30)
+	Hausnummer	X(5)
+	PLZ		X(10)
+	Ort		X(30)
+	Land		X(30)
+	Telefon		X(20)	
+	Handy		X(20)	
+	EMail		X(30)
+	Partneranrede	X(5)
+	Partnervorname	X(25)	
+	Partnernachname	X(25)
+	Pertnertelefon	X(20)	
+	Satzart		Boolean	True=aktiv (nur in Tabelle)
+
+File Projekt ([Projektname].data)
+	Projektnummer	9(6)	Key (1..999999)
+	Projektname	X(30)	
+	Beschreibung	TStrings
+	Anzahl		9(3)	Anzahl Einträge in Beschreibung
+	Status		X(10)	angelegt/erfasst/gestartet/beendet
+	Sollstarttermin	DateTime
+	Sollendtermin	DateTime
+	Iststarttermin	DateTime
+	Istendtermin	DateTime
+	Terminart	X(15)	Festtermin-Start/Festtermin-Ende/Festtermin-Beide/Variabeltermin
+	Verantwortlich	9(4)	File Personen
+	Satzart		Boolean	True=aktiv (nur in Tabelle)
+	
+File Vorgang ([Projektname].vorg)
+	Projektnummer	9(6)	Key 1 (1..999999)
+	Vorgangsnummer	9(4)	Key 2 (1..9999) 
+	Kurzname	X(30)	
+	Beschreibung	TStrings
+	Anzahl		9(3)	Anzahl Einträge in Beschreibung
+	Status		X(10)	angelegt/erfasst/gestartet/beendet
+	Sollstarttermin	DateTime
+	Sollendtermin	DateTime
+	Iststarttermin	DateTime
+	Istendtermin	DateTime
+	Terminart	X(15)	Festtermin-Start/Festtermin-Ende/Festtermin-Beide/Variabeltermin
+	Verantwortlich	9(4)	File Personen
+	Ausführend	9(4)	File Personen
+	Vorgänger	9(4)
+	Nachfolger	9(4)
+	Satzart		Boolean	True=aktiv (nur in Tabelle)
+	vonX		9(6)	Pixel Rahmen
+	vonY		9(6)	Pixel Rahmen
+	bisX		9(6)	Pixel Rahmen
+	bisY		9(6)	Pixel Rahmen
+	Stufe		9(4)	Schachteltiefe		
+	

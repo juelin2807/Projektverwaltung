@@ -1,0 +1,28 @@
+Menue
+=====
+
+Person/Firma
+		Erstellen
+		Laden
+		Verwalten
+		Speichern
+		Drucken
+
+Projekt
+		Neu
+		Laden
+		Speichern
+		Ändern
+		Löschen
+		Starten
+		Stoppen
+		Beenden
+		Verschieben
+		Prüfen
+		Drucken
+		Graphik speichern
+
+Vorgang
+		Verwalten
+		Status ändern
+
