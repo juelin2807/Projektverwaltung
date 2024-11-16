@@ -16,3 +16,13 @@ Für die die nicht lesen wollen (können) sind viele Bilder drin.
 Die Benutzung der Software ist Kostenfrei.
 Viel Spaß
 wünscht Jürgen
+
+
+![Projekt (Stunden)](https://github.com/user-attachments/assets/63e926a9-968e-4b85-aed2-9199f46625cb)
+
+
+![bild7](https://github.com/user-attachments/assets/fb491591-2368-4607-aa60-2f558302a148)
+
+![bild43](https://github.com/user-attachments/assets/25609bab-ea66-44ee-8bd9-944e37ef684d)
+
+![bild60](https://github.com/user-attachments/assets/72664294-c02f-41d9-b688-b98dfd5f0485)
